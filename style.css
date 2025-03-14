@@ -1489,4 +1489,7 @@ and (min-width: 1024px) and (max-width: 1199px)
      #disc-price{
         margin-left: 8% !important;
      }
+     .delivery-row{
+        margin-left: 20%;
+     }
     }
