@@ -865,13 +865,18 @@
   <div class="container footer-border mt-1"></div>
       
 </div>
-<!-- Javascript -->
-   
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="owl/js/owl.carousel.min.js"></script>
+<!-- Owl JQuery -->
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Owl JS -->
+   <script src="owl/js/owl.carousel.min.js"></script>
+   <!-- Custom JS -->
     <script src="script.js"></script>
+    <!-- AOS JS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
+      // AOS Initialization
+      AOS.init();
+      // Owl Initialization
       $(document).ready(function(){
   $('#gallery_flow_left').owlCarousel({
     items:4,
@@ -933,7 +938,7 @@
     }
   });
 });
-AOS.init();
+
     </script>
 </body>
 </html>
