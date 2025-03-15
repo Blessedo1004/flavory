@@ -483,8 +483,8 @@
         </div>
       </div>
 
-      <!-- Who we are carousel -->
-      <div class="container-fluid mt-4">
+      <!-- Who we are sliders -->
+      <div class="container-fluid mt-4" data-aos="fade" data-aos-duration="900" data-aos-easing="linear">
         <div class="owl-carousel owl-theme" id="gallery_flow_left">
             <img src="images/gallery_01.png" alt="">
             <img src="images/gallery_02.png" alt="">
@@ -493,7 +493,7 @@
         </div>
         
     </div>
-    <div class="container-fluid mt-4">
+    <div class="container-fluid mt-4" data-aos="fade" data-aos-duration="900" data-aos-easing="linear">
         <div class="owl-carousel owl-theme" id="gallery_flow_right">
             <img src="images/gallery_05.png" alt="">
             <img src="images/gallery_06.png" alt="">
@@ -511,7 +511,7 @@
       </div>
    </div>
 <!-- Location -->
- <div id="locate-row" data-aos="zoom-in" data-aos-duration="900" data-aos-easing="linear">
+ <div id="locate-row" data-aos="fade" data-aos-duration="900" data-aos-easing="linear">
   
   <div id="locate-row2">
     <div class="container-fluid mt-5"  id="location-row">
@@ -621,7 +621,7 @@
  
     </div>
 
-    <div id="demo2" class="carousel slide" data-ride="carousel" data-aos="zoom-in" data-aos-duration="900" data-aos-easing="linear">
+    <div id="demo2" class="carousel slide" data-ride="carousel" data-aos="fade" data-aos-duration="900" data-aos-easing="linear">
 
       <!-- Indicators -->
       <ul class="carousel-indicators">
@@ -876,6 +876,9 @@
     <script>
       // AOS Initialization
       AOS.init();
+      window.addEventListener('load',()=>{
+        AOS.init();
+      });
       // Owl Initialization
       $(document).ready(function(){
   $('#gallery_flow_left').owlCarousel({
