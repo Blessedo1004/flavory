@@ -425,12 +425,24 @@ a:hover{
     display: flex;
     flex-direction: row;
 }
+/* Asus Zenbook Fold */
+@media only screen and (max-width: 854px) and (min-width: 853px) {
+    #play-png{
+    
+        position: absolute;
+        top:53% !important;
+        left: 44% !important;
+       }
+    #video_text{
+        position: relative;
+        top:0 !important;
+        left: 0 !important;
+    
+    }
+}
 /* Surface Duo */
 @media only screen and (max-width: 540px) and (min-width: 540px) {
-    #banner {
-      margin-left:5%;  
-      width: 90%;
-    }
+
     .g-play,.app-store{
         width: 200% !important;
     }
@@ -459,6 +471,18 @@ a:hover{
        width: 400px;
        margin: auto;
     }
+    #play-png{
+    
+        position: absolute;
+        top:65% !important;
+        left: 41% !important;
+       }
+    #video_text{
+        position: relative;
+        top:0 !important;
+        left: 0 !important;
+    
+    }
   }
   /* Nest Hub Max */
   @media only screen and (max-width: 1280px) and (min-width: 1280px) {
@@ -467,44 +491,83 @@ a:hover{
         margin-top: -13% !important;
      
     }
+    #play-png{
+    
+        position: absolute;
+        top:60% !important;
+        left: 45.5% !important;
+       }
+    #video_text{
+        position: relative;
+        top:0 !important;
+        left: 0 !important;
+    
+    }
    
   }
-/* Galaxy S8+ */
-  /* @media only screen and (max-width: 360px) and (min-width: 360px) {
+/* Iphone XR, 14 Pro Max, Pixel 7, S20 Ultra */
+  @media only screen and (min-width: 412px) and (max-width: 539px) {
     #play-png{
-        margin-top: -37%;
+    
+        position: absolute;
+        top:59% !important;
+        left: 38% !important;
+       }
+    #video_text{
+        position: relative;
+        top:0 !important;
+        left: 0 !important;
+    
     }
 
-  } */
-  /* Iphone 12 pro */
-  /* @media only screen and (max-width: 391px) and (min-width: 390px) {
-    #play-png{
-        margin-top: -33.5% !important;
-    }
-
-  } */
-  /* Iphone SE */
-  /* @media only screen and (max-width: 376px) and (min-width: 375px) {
-    #play-png{
-        margin-top: -35% !important;
-    }
-
-  } */
-  /* Iphone XR. 14 pro max, Google Pixel 7, S20 ultra */
-  /* @media only screen and (min-width: 412px) and (max-width: 767px) {
-    #play-png{
-        margin-top: -31.5%;
-    }
-
-  } */
+  }
   /* small phones */
-  /* @media only screen and (max-width: 320px) and (min-width: 320px) {
+  @media only screen and (max-width: 320px) and (min-width: 320px) {
     #play-png{
-        margin-top: -41% !important;
+    
+        position: absolute;
+        top:53% !important;
+        left: 35% !important;
+       }
+    #video_text{
+        position: relative;
+        top:0 !important;
+        left: 0 !important;
+    
     }
 
-  } */
+  }
+/* Galaxy ZFold 5 */
+@media only screen and (max-width: 344px) and (min-width: 344px) {
+    #play-png{
+    
+        position: absolute;
+        top:54% !important;
+        left: 36% !important;
+       }
+    #video_text{
+        position: relative;
+        top:0 !important;
+        left: 0 !important;
+    
+    }
+}
+/* Surface Pro 7 */
 
+@media only screen and (max-width: 912px) and (min-width: 912px) {
+    #play-png{
+    
+        position: absolute;
+        top:55% !important;
+        left: 45% !important;
+       }
+    #video_text{
+        position: relative;
+        top:0 !important;
+        left: 0 !important;
+    
+    }
+}
 /* phones */
 @media only screen and (min-width: 300px) and (max-width: 767px) {
     #collapsibleNavbar > #nav{
@@ -791,13 +854,14 @@ a:hover{
     top:57%;
     left: 37%;
    }
-   #video_text{
+#video_text{
     position: relative;
     top:0;
     left: 0;
 
 }
 }
+ 
  
 /*small tablets */
 @media only screen   
