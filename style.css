@@ -19,7 +19,17 @@ body {
     height: 300px; 
     border-radius: 15px;
 }
-
+#chef-slider .owl-nav{
+    display: block;
+}
+#chef-slider img{
+    height: 500px;
+}
+#chef-container{
+    background-image: url('images/knife_fire.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
 a:hover{
         text-decoration: none;
 }
@@ -285,11 +295,16 @@ a:hover{
 .card-title{
     font-weight: bold;
 }
-.card-date{
+#chef-name{
+    font-weight: bolder;
+    font-size: larger;
+}
+.card-date #chef-title{
     font-family: "Average Sans", sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-style: normal;
 }
+
 .card:hover{
     border-color: #c42900;
 }
@@ -396,27 +411,13 @@ a:hover{
     border-bottom: 1px solid grey;
     margin-right: 15%;
 }
-.footer-locate{
+.footer-locate,.footer-days,#review-text2,.subscribe{
             font-family: "Average Sans", sans-serif;
             font-weight: 400;
             font-style: normal;
   }
           
-.footer-days{
-    font-family: "Average Sans", sans-serif;
-            font-weight: 400;
-            font-style: normal;
-  }
-#review-text2{
-    font-family: "Average Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.subscribe{
-    font-family: "Average Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
+
 #socials{
     line-height: 35px;
 }
@@ -443,13 +444,20 @@ a:hover{
         height: 750px !important;
     }
     .rate{
-        width: 45% !important;
+        width: 5px !important;
     }
     .testi-btn{
         margin-top: -10% !important;
     }
     #tasty-mouth{
         margin-top: -40% !important;
+    }
+    .info-img{
+        width: 40% !important;
+    }
+    #chef-slider img{
+       width: 400px;
+       margin: auto;
     }
   }
   /* Nest Hub Max */
@@ -636,7 +644,7 @@ a:hover{
     font-size: medium;
 }
 #menu-row{
-    margin-top: 20%;
+    margin-top: 30%;
 }
 #title-icon{
     width: 20%;
@@ -795,6 +803,9 @@ a:hover{
 @media only screen   
 and (min-width: 768px)   and (max-width: 1023px)
 { 
+    #menu-row{
+        margin-top: 20%;
+    }
     #collapsibleNavbar > #nav{
         padding-left: 5% ;
         padding-top: 5%;
