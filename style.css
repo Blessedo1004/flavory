@@ -612,6 +612,9 @@ a:hover{
 #menu-row{
     margin-top: 10%;
 }
+#menu-items{
+    margin-top: 10%;
+}
 #title-icon{
     width: 20%;
 }
@@ -758,8 +761,11 @@ a:hover{
 @media only screen   
 and (min-width: 768px)   and (max-width: 1023px)
 { 
+    #menu-items{
+        margin-top: 7%;
+      }
     #menu-row{
-        margin-top: 20%;
+        margin-top: 10%;
     }
     #collapsibleNavbar > #nav{
         padding-left: 5% ;
