@@ -458,6 +458,9 @@ a:hover{
     .app-png{
         height: 360px;
     }
+    #location-row{
+        height: 280px !important;
+       }
   }
   /* Nest Hub Max */
   @media only screen and (max-width: 1280px) and (min-width: 1280px) {
@@ -562,7 +565,7 @@ a:hover{
     display: none;
    }
    #location-row{
-    height: 400px;
+    height: 250px;
    }
     .navbar-nav{
     background-image: url('images/dark_bg.png') !important;
