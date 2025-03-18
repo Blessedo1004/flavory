@@ -1,10 +1,25 @@
 body {
     font-family: "Rowdies", sans-serif;
 }
+
 #demo a.carousel-control-prev {
     color: white;
 }
+.play-png{
+    width: 100px;
+    margin-top: -120px;
+}
 
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.video-text{
+    margin-top: 15%;
+    animation: rotate 10s linear infinite;
+}
 #demo a.carousel-control-next {
     color: white; 
 }
@@ -113,26 +128,12 @@ a:hover{
     background-attachment: scroll;
 }
 
-
-  @keyframes rotate {
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-  #video_text{
-    margin-top: 15%;
-    animation: rotate 10s linear infinite;
-}
  
 #locate-text1{
     font-weight: bolder;
     font-weight: 900;
 }
-#play-png{
-    width: 100px;
-    height:100px;
-}
+
 #locate-text2{
     font-weight: 100;
 }
@@ -425,30 +426,13 @@ a:hover{
     display: flex;
     flex-direction: row;
 }
-/* Asus Zenbook Fold */
-@media only screen and (max-width: 854px) and (min-width: 853px) {
-    #play-png{
-    
-        position: absolute;
-        top:53% !important;
-        left: 44% !important;
-       }
-    #video_text{
-        position: relative;
-        top:0 !important;
-        left: 0 !important;
-    
-    }
-}
+
 /* Surface Duo */
 @media only screen and (max-width: 540px) and (min-width: 540px) {
-
     .g-play,.app-store{
-        width: 200% !important;
+        width: 250% !important;
     }
-    .app-store{
-        margin-left: 190% !important;
-    }
+    
     #quote{
         margin-bottom: -0.5em !important;
     }
@@ -471,17 +455,8 @@ a:hover{
        width: 400px;
        margin: auto;
     }
-    #play-png{
-    
-        position: absolute;
-        top:65% !important;
-        left: 41% !important;
-       }
-    #video_text{
-        position: relative;
-        top:0 !important;
-        left: 0 !important;
-    
+    .app-png{
+        height: 360px;
     }
   }
   /* Nest Hub Max */
@@ -491,83 +466,9 @@ a:hover{
         margin-top: -13% !important;
      
     }
-    #play-png{
-    
-        position: absolute;
-        top:60% !important;
-        left: 45.5% !important;
-       }
-    #video_text{
-        position: relative;
-        top:0 !important;
-        left: 0 !important;
     
     }
    
-  }
-/* Iphone XR, 14 Pro Max, Pixel 7, S20 Ultra */
-  @media only screen and (min-width: 412px) and (max-width: 539px) {
-    #play-png{
-    
-        position: absolute;
-        top:59% !important;
-        left: 38% !important;
-       }
-    #video_text{
-        position: relative;
-        top:0 !important;
-        left: 0 !important;
-    
-    }
-
-  }
-  /* small phones */
-  @media only screen and (max-width: 320px) and (min-width: 320px) {
-    #play-png{
-    
-        position: absolute;
-        top:53% !important;
-        left: 35% !important;
-       }
-    #video_text{
-        position: relative;
-        top:0 !important;
-        left: 0 !important;
-    
-    }
-
-  }
-/* Galaxy ZFold 5 */
-@media only screen and (max-width: 344px) and (min-width: 344px) {
-    #play-png{
-    
-        position: absolute;
-        top:54% !important;
-        left: 36% !important;
-       }
-    #video_text{
-        position: relative;
-        top:0 !important;
-        left: 0 !important;
-    
-    }
-}
-/* Surface Pro 7 */
-
-@media only screen and (max-width: 912px) and (min-width: 912px) {
-    #play-png{
-    
-        position: absolute;
-        top:55% !important;
-        left: 45% !important;
-       }
-    #video_text{
-        position: relative;
-        top:0 !important;
-        left: 0 !important;
-    
-    }
-}
 /* phones */
 @media only screen and (min-width: 300px) and (max-width: 767px) {
     #collapsibleNavbar > #nav{
@@ -848,18 +749,6 @@ a:hover{
 #discount{
     height: 750px;
 }
-#play-png{
-    
-    position: absolute;
-    top:57%;
-    left: 37%;
-   }
-#video_text{
-    position: relative;
-    top:0;
-    left: 0;
-
-}
 }
  
  
@@ -918,18 +807,6 @@ and (min-width: 768px)   and (max-width: 1023px)
     }
     #count{
         margin-top: 10%;
-    }
-    #play-png{
-    
-        position: absolute;
-        top:52%;
-        left: 43.5%;
-       }
-       #video_text{
-        position: relative;
-        top:0;
-        left: 0;
-    
     }
     .order-btn {
         display: none;
@@ -1147,18 +1024,6 @@ and (min-width: 1024px) and (max-width: 1199px)
     }
     #count{
         margin-top: 12% !important;
-    }
-    #play-png{
-    
-        position: absolute;
-        top:58%;
-        left: 45%;
-       }
-       #video_text{
-        position: relative;
-        top:0;
-        left: 0;
-    
     }
 #location-row{
   width: 98%;
@@ -1462,12 +1327,6 @@ and (min-width: 1024px) and (max-width: 1199px)
     display: none;
    }
 
-#play-png{
-    
-    position: absolute;
-    top:63%;
-    left: 46%;
-   }
  #info-text{
     font-size: 50px;
     
@@ -1498,12 +1357,6 @@ and (min-width: 1024px) and (max-width: 1199px)
     font-size: 3em
 }
 
-#video_text{
-    position: relative;
-    top:0;
-    left: 0;
-
-}
 #review-container2{
     height: 490px !important;
 }
@@ -1553,10 +1406,6 @@ and (min-width: 1024px) and (max-width: 1199px)
     #locate{
         margin-top: -5%;
     }
-    #play-png{
-       left: 47.8%;
-       top:74%
-       }
        .info-img{
         width: 30%;
         height: 120px;
