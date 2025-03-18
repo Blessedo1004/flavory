@@ -474,6 +474,9 @@ a:hover{
    
 /* phones */
 @media only screen and (min-width: 300px) and (max-width: 767px) {
+    .menu-row2{
+        margin-top: 35% !important;
+    }
     #collapsibleNavbar > #nav{
         padding-left: 10% ;
         padding-top: 5%;
@@ -997,6 +1000,7 @@ and (min-width: 768px)   and (max-width: 1023px)
     #blog-img{
         height: 250px !important;
     }
+    
 
 }
 
