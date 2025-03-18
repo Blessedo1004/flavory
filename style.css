@@ -761,6 +761,9 @@ a:hover{
 @media only screen   
 and (min-width: 768px)   and (max-width: 1023px)
 { 
+    .menu-row2{
+        margin-top: 15% !important;
+    }
     #menu-items{
         margin-top: 7%;
       }
@@ -1003,6 +1006,9 @@ and (min-width: 768px)   and (max-width: 1023px)
   @media only screen   
 and (min-width: 1024px) and (max-width: 1199px)
 {
+    .menu-row2{
+        margin-top: 5% !important;
+    }
     #demo2 .icofont-2x{
         font-size: 3em;
     }
