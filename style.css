@@ -604,14 +604,13 @@ a:hover{
 }
 
 #menu-text{
-    margin-top: 1%;
     font-size: large;
 }
 #menu-text3{
     font-size: medium;
 }
 #menu-row{
-    margin-top: 30%;
+    margin-top: 10%;
 }
 #title-icon{
     width: 20%;
