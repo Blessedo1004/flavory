@@ -49,7 +49,7 @@ window.addEventListener('scroll', function() {
     });
 });
 
-
+// Menu Toggling
 
 function menu1(){
   var menu1= document.getElementById('menu1');
@@ -158,6 +158,7 @@ function menu4(){
   img5.src = "images/dst5.png";
   img6.src = "images/dst6.png";
 }
+// OffCanvas Functions
 
 function offCanvasClose(){
   document.getElementById('offcanvas-container').style.display = 'none';
