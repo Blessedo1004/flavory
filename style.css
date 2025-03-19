@@ -417,7 +417,7 @@ a:hover {
     }
 }
 .close:hover{
-    animation: 2s close;
+    animation: 2s close forwards;
 }
 
 #overlay {
