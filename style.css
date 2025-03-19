@@ -10,6 +10,12 @@ body {
 	width: 100px;
 	margin-top: -120px;
 }
+#navbar{
+    border-bottom: 1px solid grey;
+}
+#table{
+    border-left: 1px solid grey;
+}
 @keyframes rotate {
 	to {
 	transform: rotate(360deg);
@@ -427,7 +433,11 @@ a:hover {
 }
 /* phones */
 @media only screen and (min-width: 300px) and (max-width: 767px) {
-	.menu-row2 {
+ #nav{
+    margin-top: -0.1px !important;
+    border-top: 1px solid grey;
+}
+.menu-row2 {
 	margin-top: 35% !important;
 }
 #collapsibleNavbar > #nav {
@@ -697,7 +707,11 @@ a:hover {
 /*small tablets */
 @media only screen   
 and (min-width: 768px)   and (max-width: 1023px) {
-	.menu-row2 {
+#nav{
+    margin-top: -0.1px !important;
+    border-top: 1px solid grey;
+}
+.menu-row2 {
 	margin-top: 15% !important;
 }
 #menu-items {
