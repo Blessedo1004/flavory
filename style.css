@@ -3,6 +3,7 @@
 body {
 	font-family: "Rowdies", sans-serif;
     position: relative;
+    cursor: pointer;
 }
 #demo a.carousel-control-prev {
 	color: white;
@@ -305,7 +306,6 @@ a:hover {
 }
 #menu-items {
 	margin-top: 4%;
-    cursor: pointer;
 }
 #discount-container {
 	background-image: url('images/banner_bg.png');
@@ -414,10 +414,6 @@ a:hover {
 }
 .toggler{
     font-size:30px;
-    cursor:pointer;
-}
-.close{
-    cursor:pointer
 }
 @keyframes close {
     100%{
