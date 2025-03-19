@@ -162,11 +162,13 @@ function menu4(){
 function offCanvasClose(){
   document.getElementById('offcanvas-container').style.display = 'none';
   document.getElementById('overlay').style.display = 'none';
+  document.body.style.overflow = 'scroll';
 }
 
 function offCanvasOpen(){
   document.getElementById('offcanvas-container').style.display = 'block';
   document.getElementById('overlay').style.display = 'block';
+  document.body.style.overflow = 'hidden';
 }
 
 // var hover1 = document.getElementById('menu1');

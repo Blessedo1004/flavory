@@ -2,7 +2,7 @@
 
 body {
 	font-family: "Rowdies", sans-serif;
-    position: relative;
+    overflow: scroll;
     cursor: pointer;
 }
 #demo a.carousel-control-prev {
@@ -437,7 +437,6 @@ a:hover {
     bottom: 0;
     background-color: rgba(0,0,0,0.8); 
     z-index: 9999; 
-   
   }
 /* Surface Duo */
 @media only screen and (max-width: 540px) and (min-width: 540px) {
