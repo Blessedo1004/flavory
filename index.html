@@ -37,7 +37,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav offset-xl-2 offset-lg-2" id="nav">
+        <ul class="navbar-nav offset-xl-2 offset-lg-1" id="nav">
             <li class="nav-item">
               <a class="nav-link ml-2" href="home.html">HOME</a>
             </li>
@@ -62,10 +62,13 @@
               <li class="nav-item">
                 <button type="button" class="btn text-dark bg-warning order-btn btn-lg ml-xl-3 ml-md-3 " >ORDER NOW</button>
               </li>
+              <li class="nav-item">
+                <span onclick="offCanvasOpen()" class="toggler">&#9776;</span>
+
+              </li>
         </ul>
         
         </div>
-        
        </nav>
        
  <!-- Hero Section -->
@@ -116,7 +119,56 @@
  
   
 </div>
+<div id="overlay"></div>
+<div class="container" id="offcanvas-container">
+  <div class="row offcanvas-row">
+      <div class="col-7 mt-5">
+          <img src="images/logo-dark.png" alt="" srcset="">
 
+      </div>
+      <div class="col-5 mt-3">
+          <i class="bi-x-circle close icofont-2x" onclick="offCanvasClose()">
+
+          </i>
+      </div>
+
+      <div class="row">
+          
+          <div class="col-12 offcanvas-header-text mt-4 ml-3">CALL US</div>
+          <div class="col-8">
+              <div class="col-12 offcanvas-text mt-2">+ 1 123 456 7890</div>
+          </div>
+         <div class="col-4 mt-2"><i class="bi-whatsapp"></i></div>
+         <div class="col-8">
+          <div class="col-12 offcanvas-text mt-2">+ 1 098 765 4321</div>
+         </div>
+         <div class="col-4 mt-2"><i class="bi-phone"></i></div>
+      </div>
+
+      <div class="container mt-5" style="border-bottom: 1px solid black;"></div>
+    
+      <div class="row">
+          
+          <div class="col-12 offcanvas-header-text mt-4 ml-3">EMAIL US</div>
+          <div class="col-8">
+              <div class="col-12 offcanvas-text mt-2">example@gmail.com</div>
+          </div>
+         <div class="col-4 mt-2"><i class="bi-envelope-fill"></i></div>
+      </div>
+      <div class="container mt-5" style="border-bottom: 1px solid black;"></div>
+
+      <div class="row">
+          
+          <div class="col-12 offcanvas-header-text mt-4 ml-3">FIND US</div>
+          <div class="col-8">
+              <div class="col-12 offcanvas-text mt-2">Restaurant St, Delicious City, London 9578, UK</div>
+          </div>
+         <div class="col-4 mt-2"><i class="icofont-duotone icofont-location"></i></div>
+      </div>
+
+      <div class="col-12 mt-5"><img src="images/right_menu_table.png" alt="img" class="mx-auto d-block canvas-img img-fluid"></div>
+  </div>
+</div>
 <!-- Menu -->
   <div class="container">
     <div class="row" id="menu-row">

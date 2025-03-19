@@ -2,6 +2,7 @@
 
 body {
 	font-family: "Rowdies", sans-serif;
+    position: relative;
 }
 #demo a.carousel-control-prev {
 	color: white;
@@ -304,6 +305,7 @@ a:hover {
 }
 #menu-items {
 	margin-top: 4%;
+    cursor: pointer;
 }
 #discount-container {
 	background-image: url('images/banner_bg.png');
@@ -317,7 +319,7 @@ a:hover {
 #banner {
 	border-radius: 15px;
 }
-#title-text {
+#title-text,.offcanvas-header-text {
 	color: #c42900;
 }
 #review-img {
@@ -391,6 +393,56 @@ a:hover {
 	display: flex;
 	flex-direction: row;
 }
+.offcanvas{
+    width: 100%;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+}
+#offcanvas-container{
+    display: none;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    background-image: url('images/discount_bg.jpg');
+    z-index: 9999;
+    height:100%;
+}
+
+.canvas-img{
+    border-radius: 10px;
+}
+.toggler{
+    font-size:30px;
+    cursor:pointer;
+}
+.close{
+    cursor:pointer
+}
+@keyframes close {
+    100%{
+        transform: rotate(50deg);
+    }
+}
+.close:hover{
+    animation: 2s close;
+}
+.offcanvas-header-text{
+    margin: auto;
+}
+#overlay {
+    position: fixed;
+    display: none; 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8); 
+    z-index: 9999; 
+   
+  }
 /* Surface Duo */
 @media only screen and (max-width: 540px) and (min-width: 540px) {
 	.g-play,.app-store {
@@ -433,6 +485,12 @@ a:hover {
 }
 /* phones */
 @media only screen and (min-width: 300px) and (max-width: 767px) {
+    #offcanvas-container,.toggler{
+        display: none;
+    }
+    #table{
+        border-left: none;
+    }
  #nav{
     margin-top: -0.1px !important;
     border-top: 1px solid grey;
@@ -707,6 +765,12 @@ a:hover {
 /*small tablets */
 @media only screen   
 and (min-width: 768px)   and (max-width: 1023px) {
+    #offcanvas-container,.toggler{
+        display: none;
+    }
+    #table{
+        border-left: none;
+    }
 #nav{
     margin-top: -0.1px !important;
     border-top: 1px solid grey;
@@ -732,7 +796,7 @@ and (min-width: 768px)   and (max-width: 1023px) {
 	margin-bottom: -20% !important;
 }
 #slide-img {
-	height: 300% !important;
+	height: 600px !important;
 }
 .blog-card {
 	height: 90%;
@@ -941,7 +1005,13 @@ and (min-width: 768px)   and (max-width: 1023px) {
 /*tablets*/
   @media only screen   
 and (min-width: 1024px) and (max-width: 1199px) {
-	.menu-row2 {
+#slide-img {
+    height: 600px !important;
+}
+.toggler{
+    margin-left: 250% !important;
+}
+.menu-row2 {
 	margin-top: 5% !important;
 }
 #demo2 .icofont-2x {
@@ -1118,10 +1188,17 @@ and (min-width: 1024px) and (max-width: 1199px) {
 .app-png {
 	height: 90%;
 }
+#offcanvas-container{
+    width: 35%; 
+    left: 65%;
+}
 }
 /*laptops*/
   @media (min-width: 1200px) {
-	.footer-locate,.footer-locate2 {
+.toggler{
+        margin-left: 400% !important;
+    }
+.footer-locate,.footer-locate2 {
 	font-size: 45px;
 }
 .book-a-table {
@@ -1283,11 +1360,18 @@ and (min-width: 1024px) and (max-width: 1199px) {
 #review-container2 {
 	height: 490px !important;
 }
+#offcanvas-container{
+    width: 25%; 
+    left: 75%;
+}
 }
 /* laptop large */
 @media only screen and  (min-width: 1440px) and (max-width: 2559px) {
 	#locate {
 	margin-top: -13%;
+}
+#slide-img{
+    height: 10%;
 }
 }
 /* laptop 4k */
@@ -1337,5 +1421,8 @@ and (min-width: 1024px) and (max-width: 1199px) {
 }
 .delivery-row {
 	margin-left: 20%;
+}
+#slide-img{
+    height: 10%;
 }
 }

@@ -159,6 +159,16 @@ function menu4(){
   img6.src = "images/dst6.png";
 }
 
+function offCanvasClose(){
+  document.getElementById('offcanvas-container').style.display = 'none';
+  document.getElementById('overlay').style.display = 'none';
+}
+
+function offCanvasOpen(){
+  document.getElementById('offcanvas-container').style.display = 'block';
+  document.getElementById('overlay').style.display = 'block';
+}
+
 // var hover1 = document.getElementById('menu1');
 // var hover2 = document.getElementById('menu2');
 // var hover3 = document.getElementById('menu3');
@@ -197,4 +207,4 @@ function menu4(){
 //       hover4.style.color = 'black';
 //       hover4.style.textDecoration = 'none';
 //     });
-  window.onloadstart=menu1();
+  window.onloadstart=(menu1());
