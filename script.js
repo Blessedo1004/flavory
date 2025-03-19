@@ -172,42 +172,5 @@ function offCanvasOpen(){
   document.body.style.overflow = 'hidden';
 }
 
-// var hover1 = document.getElementById('menu1');
-// var hover2 = document.getElementById('menu2');
-// var hover3 = document.getElementById('menu3');
-// var hover4 = document.getElementById('menu4');
 
-//     hover1.addEventListener('mouseover', function() {
-//       hover1.style.color = '#c42900';
-//       hover1.style.textDecoration = 'underline';
-//     });
-//     hover2.addEventListener('mouseover', function() {
-//       hover2.style.color = '#c42900';
-//       hover2.style.textDecoration = 'underline';
-//     });  
-//     hover3.addEventListener('mouseover', function() {
-//       hover3.style.color = '#c42900';
-//       hover3.style.textDecoration = 'underline';
-//     });
-//     hover4.addEventListener('mouseover', function() {
-//       hover4.style.color = '#c42900';
-//       hover4.style.textDecoration = 'underline';
-//     });
-
-//     hover1.addEventListener('mouseout', function() {
-//       hover1.style.color = 'black';
-//       hover1.style.textDecoration = 'none';
-//     });
-//     hover2.addEventListener('mouseout', function() {
-//       hover2.style.color = 'black';
-//       hover2.style.textDecoration = 'none';
-//     });  
-//     hover3.addEventListener('mouseout', function() {
-//       hover3.style.color = 'black';
-//       hover3.style.textDecoration = 'none';
-//     });
-//     hover4.addEventListener('mouseout', function() {
-//       hover4.style.color = 'black';
-//       hover4.style.textDecoration = 'none';
-//     });
   window.onloadstart=(menu1());
