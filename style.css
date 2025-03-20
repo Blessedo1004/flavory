@@ -605,9 +605,6 @@ a:hover {
 #menu-text3 {
 	font-size: medium;
 }
-#menu-row {
-	margin-top: 10%;
-}
 #menu-items {
 	margin-top: 10%;
 }
@@ -758,9 +755,7 @@ and (min-width: 768px)   and (max-width: 1023px) {
 #menu-items {
 	margin-top: 7%;
 }
-#menu-row {
-	margin-top: 10%;
-}
+
 #collapsibleNavbar > #nav {
 	padding-left: 5% ;
 	padding-top: 5%;
