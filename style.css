@@ -2,7 +2,6 @@
 
 body {
 	font-family: "Rowdies", sans-serif;
-    overflow: scroll;
     cursor: pointer;
 }
 #demo a.carousel-control-prev {
@@ -1354,15 +1353,16 @@ and (min-width: 1024px) and (max-width: 1199px) {
     width: 25%; 
     left: 75%;
 }
+#slide-img{
+    height: 1000px;
+}
 }
 /* laptop large */
 @media only screen and  (min-width: 1440px) and (max-width: 2559px) {
 	#locate {
 	margin-top: -13%;
 }
-#slide-img{
-    height: 10%;
-}
+
 }
 /* laptop 4k */
 @media only screen and  (min-width: 2560px) {
@@ -1412,7 +1412,8 @@ and (min-width: 1024px) and (max-width: 1199px) {
 .delivery-row {
 	margin-left: 20%;
 }
-#slide-img{
-    height: 10%;
+
+#nav{
+    margin-left: 50%;
 }
 }

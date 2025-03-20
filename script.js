@@ -163,7 +163,7 @@ function menu4(){
 function offCanvasClose(){
   document.getElementById('offcanvas-container').style.display = 'none';
   document.getElementById('overlay').style.display = 'none';
-  document.body.style.overflow = 'scroll';
+  document.body.style.overflow = 'visible';
 }
 
 function offCanvasOpen(){
