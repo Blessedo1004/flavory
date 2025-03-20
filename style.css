@@ -755,7 +755,9 @@ and (min-width: 768px)   and (max-width: 1023px) {
 #menu-items {
 	margin-top: 7%;
 }
-
+.menu-row1 {
+	margin-top: 20%;
+}
 #collapsibleNavbar > #nav {
 	padding-left: 5% ;
 	padding-top: 5%;
